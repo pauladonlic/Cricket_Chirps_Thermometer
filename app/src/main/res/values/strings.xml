@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cricket Chirps Thermometer</string>
+    <string name="contentDescriptionThermometerImage">Thermometer Image</string>
+    <string name="contentDescriptionCricketImage">Cricket Image</string>
+    <string name="startText">Did you know you can determine the temperature outside by counting the number of chirps the cricket makes? Just count the number of chirps the one makes in 25 seconds and click the button below!</string>
+    <string name="chooseMetricsText">Choose in which metrics you want the temperature to be calculated in:</string>
+    <string name="btnCalculateTemperature">Calculate Temperature</string>
+    <string name="tvResult">Result</string>
+    <string name="degreesCelsius">°C.</string>
+    <string name="degreesFahrenheit">°F.</string>
+    <string name="celcius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="calculatedTempText">The temperature outside is:</string>
+    <string name="numOfChirps">Enter the number of chirps:</string>
+    <string name="bl">bl</string>
+</resources>

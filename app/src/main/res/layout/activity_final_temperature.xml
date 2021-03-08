@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".FinalTemperature">
+
+    <ImageView
+        android:id="@+id/ivThermometer2"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/contentDescriptionThermometerImage"
+        app:srcCompat="@drawable/thermometer" />
+
+    <TextView
+        android:id="@+id/tvTempOutside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/calculatedTempText"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tvResult"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivCricket2"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/contentDescriptionCricketImage"
+        android:src="@drawable/cricket2" />
+</LinearLayout>
